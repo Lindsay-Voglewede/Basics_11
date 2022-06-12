@@ -1,0 +1,29 @@
+/*Write a C program to input base and height of a triangle and find area of the given triangle.*/
+
+////////////////////////////
+/// By Lindsay Voglewede ///
+////////////////////////////
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Declare Variables
+    float base=0;
+    float height=0;
+    float area=0;
+
+    //Ask user for Input
+    printf("What is the base?\n");
+    scanf("%f",&base);
+    printf("What is the height?\n");
+    scanf("%f",&height);
+
+    //Mathematical Equation
+    area=(base*height)/2;
+
+    //Output
+    printf("The area of the triangle is %f",area);
+    return 0;
+}
